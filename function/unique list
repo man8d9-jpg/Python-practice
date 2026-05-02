@@ -1,0 +1,9 @@
+list1 = [1,2,2,3,4,5,4]
+
+def unique(no_duplicates):
+    list2 = []
+    for num in no_duplicates:
+        if num not in list2:
+            list2.append(num)
+    return list2
+print(unique(list1))
