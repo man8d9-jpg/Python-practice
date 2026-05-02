@@ -1,0 +1,4 @@
+word = input("Enter any word: ")
+def string(word):
+    return word.upper()
+print(string(word))
