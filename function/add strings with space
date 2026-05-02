@@ -1,0 +1,6 @@
+text1 = input()
+text2 = input()
+add = ''
+def combine(word1, word2):
+    return word1 + " s" + word2
+print(combine(text1, text2))
