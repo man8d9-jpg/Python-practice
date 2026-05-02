@@ -1,0 +1,9 @@
+word = input("Enter an word: ")
+def count(word):
+    total = 0
+    for alphabet in word:
+        if alphabet in 'auioe':
+            total = total + 1
+        
+    return total
+print(count(word))
