@@ -1,3 +1,5 @@
+words = ['a','a','b','c','c','c','d']
+
 def count(text):
     counts = {}
     for word in text:
