@@ -1,0 +1,9 @@
+def line(length, character):
+    if character == '':
+        text = length * '*'
+    else:
+        text = length * character[0]    
+    return text
+num = int(input("enter the lenght of the line: "))
+alphabet = input("enter the character of the line: ")
+print(line(num, alphabet))
