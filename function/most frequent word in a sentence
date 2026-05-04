@@ -1,0 +1,9 @@
+def count(text):
+    counts = {}
+    for word in text:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+    return max(counts, key=counts.get)
+print(count(words))
